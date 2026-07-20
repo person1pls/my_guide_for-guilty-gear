@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>choosing a character</title>
+      <link rel="stylesheet" href="../main.css">
+      <script src="jquery-4.0.0.min.js"></script>
+      <link rel="js" href="../index.js">
+   </head>
+   <nav>
+      <div id="container">
+         <a href="../index.html">home</a>
+         <a href="getting_started.html">getting started</a>
+         <a href="learning_moves.html">learning moves</a>
+         <a href="learning_combos.html">learning combos</a>
+      </div>
+   </nav>
+   <body>
+      <p> when you boot up the game all caracters should be unlocked except the 2 in the middle kliff and justice.<br>
+      i dont know enough to talk about who they are and why they are cool</p>
+      <h1>selecting A character </h1>
+      <p>to choose a character i say, play the coolest one. heres what the selection screen lools lile</p>
+      <p>to see a page about each character click on them they WILL eventual have lore and some notible moves (i pulled this selection wheel from the way cooler website  i like <a href="https://www.dustloop.com/w/GGReload">dustloop</a>)<br>
+      {the random area still doesn't work}<</p>
+      <div class="home-card home-card--co13 home-card--row1":
+         <div class="home-card__label">Characters</div>
+            <div class="responsive-imagemap" style="max-width: 412px; margin: 0 auto;">
+            <figure class="mw-default-size noresize made-responsive" typeof="mw:File">
+             <span>
+                <img src="../images/GGReload_Roster.png" decoding "async" loading-"lazy" width="412" height="412" usemap= "#ImageMap_c2718d8687a51c54"> 
+             </span>
+             <map name="ImageMap_c2718d8687a51c54">
+                <area href="chars/Johnny.html" shape="poly" coords="45,76,63,56,87,36,92,36,110,63,75,100,45,78" alt="Johnny" title="Johnny">
+                <area href="chars/Bridget.html" shape="poly" coords="101,28,157,6,165,43,120,60" alt="Bridget" title="Bridget">
+                <area href="chars/Robo-Ky.html" shape="poly" coords="171,6,204,3,240,6,234,37,204,36,177,37" alt="Robo-Ky" title="Robo-Ky">
+                <area href="chars/Slayer.html" shape="poly" coords="253,6,310,27,292,60,245,43" alt="Slayer" title="Slayer">
+                <area href="chars/May.html" shape="poly" coords="320,36,323,36,366,77,337,100,301,65" alt="May" title= "May">
+                <area href="chars/Venom.html" shape="poly" coords="67,127,100,87,138,131,118,156,112,156,67,133" alt="Venom" title="Venom">
+                <area href="chars/Sol_Badguy.html" shape="poly" coords="147,59,199,48,199,105,168,112" alt="Sol Badguy" title="Sol Badguy">
+                <area href="chars/Ky_Kiske.html" shape="poly" coords="212,48,264,59,242,112,212,105" alt="Ky Kiske" title="Ky Kiske">
+                <area href="chars/Ax1_Low.html" shape="poly" coords="273,131,311,87,345,131,294,157" alt="Axl Low" title="Axl Low">
+                <area href="chars/Potemkin.html" shape="poly" coords="49,199,51,174,59,147,111,169,108,185,105,199" alt="Potemkin" title="Potemkin">
+                <area href="chars/Anji_Mito.html" shape="poly" coords="306,199,304,185,300,169,351,147,360,175,362,199" alt="Anji Mito" title="Anji Mito">
+                <area href="chars/Jam_Kuradoberi.html" shape="poly" coords="49,212,105,212,108,231,111,242,59,264,52,240" alt="Jam Kuradoberi" title-"Jam Kuradoberi">
+                <area href="chars/Baiken.html" shape="poly" coords="306,212,363,212,359,240,351,264,300,242,303,231" alt="Baiken" title="Baiken">
+                <area href="chars/Faust.html" shape="poly" coords="67,279,117,253,138,280,100,323,81,303" alt="Faust" title="Faust">
+                <area href-"chars/Chipp_Zanuff.html" shape="poly" coords="169,299,199, 305,199,363,147,351" alt="Chipp Zanuff" title="Chipp Zanuff">
+                <area href="chars/Millia_Rage.html" shape="poly" coords="213,306,241,299,264,351,212,363" alt="Millia Rage" title="Millia Rage">
+                <area href="chars/Eddie.html" shape="poly" coords="274,279,294,253,344,280,311,323" alt="Eddie" title-"Eddie">
+                <area href="chars/Testament.html" shape="poly" coords="45,334,75,311,110,344,90,376" alt="Testament" title="Testament">
+                <area href-"chars/I-No.html" shape-"poly" coords="101,382,120,350,166,368,157,406" alt="I-No" title-"I-No">
+                <area href="chars/Zappa.html" shape="poly" coords="245,368,291,351,311, 383,253,405" alt="Zappa" title="Zappa">
+                <area href="chars/Dizzy.html" shape="poly" coords="301,344,336,311,366,334,321,376" alt="Dizzy" title="Dizzy">
+                <area href="a" id="rand" shape="circle" coords="207,207,52" alt="Random Area" title="Random Area">
+             </map>
+             <figcaption></figcaption>
+           </figure>
+          </div>
+         <div style="clear:both"></div>
+         <div style="clear:both"></div>
+         <div style="clear:both"></div> 
+      </div>
+   </body>
+   <script>
+      import Math
+      function updateRand(){
+      let web = ["chars/Anji_Mito.html", "chars/Ax1_Low.html", "chars/Baiken.html", "chars/Bridget.html",
+      "chars/Chipp_Zanuff.html", "chars/Dizzy.html", "chars/Eddie.html", "chars/Faust.html", "chars/I-No.html",
+      "chars/Jam_kuradoberi.html", "chars/Johnny.html", "chars/Ky_Kiske.html", "chars/May.html", "chars/Millia_Rage.html",
+      "chars/Potemkin.html", "chars/Robo_Ky.html", "chars/Slayer.html", "chars/Sol_Badguy.html", "chars/Testament.html",
+      "chars/Venom.html", "chars/Zappa.html"];
+      range = randomRange > sites.length ? sites.length : randomRange
+      index = Math.floor(Math.random() * range)
+      site = web[index]
+      $("#rand").attr("href", site);
+      }
+      var openSite = function (url) {
+      window.open(url)
+      }
+      let randSen = document.getElementById("rand");
+      randSen.on("click", updateRand)
+   </script>
+</html>

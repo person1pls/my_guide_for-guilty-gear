@@ -1,0 +1,63 @@
+:root{
+   --base-color:rgb(0,0,0);
+   --text-color:rgb(255,255,255);
+}
+
+
+body {
+   background-image: url(images/background.webp);
+   background-color: var(--base-color);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p, ul, ol, li,map, area{
+   color: var(--text-color);
+}
+div{
+   display:flex;
+   justify-content: space-evenly;
+   background-color:grey;
+}
+div  a{
+   border: 9px 0px 0px 5px solid red;
+}
+header{
+   background-color: white;
+   opacity: 100 ;
+}
+h1 {
+   border: 2px solid deepskyblue;
+   background-color:bisque;
+   padding: 10px;
+}
+h2, li>h2{
+   border:1px solid deepskyblue;
+   background-color: bisque;
+   opacity: 80;
+   color: var(--base-color);
+   padding: 5px;
+}
+.fixed-box>a{
+   position:fixed;
+   bottom: 20px;
+   right: 20px;
+   background-color: var(--text-color);
+   color: var(--base-color);
+}
+footer>p{
+   background-color: aqua;
+   color: var(--base-color);
+}
+img{float:left;}
+.im_next{
+   float:right;
+}
+a:hover{
+  color: lightgray
+}
+section{
+   background-color: yellow;
+}
+section p{
+   color:black;
+}
+
