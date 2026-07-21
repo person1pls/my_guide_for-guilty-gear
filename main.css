@@ -43,11 +43,11 @@ p, ul, ol, li,map, area{
 
 .discription{
    float:left;
-   background-color:var(--text-color);
+   background-color:red;
    color:var(--base-color);}
 .im_next{
    float:right;
-   background-color:var(--base-color);
+   background-color:blue;
    color:var(--text-color);
 }
 a:hover{
